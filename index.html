@@ -3,61 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <title>Minha pagina.com</title>
+    <link rel="stylesheet" href="/css/style.css">
 
 
 
     <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            line-height: 1.5;
-            font-family: "Roboto", sans-serif;        }
-
-        header {
-            height: 80px;
-            width: 100%;
-            background: rosybrown;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        nav{
+        .container{
+            margin: 0 auto;
+            padding: 0 20px;
             height: 100%;
             width: 100%;
         }
 
-        .menu{
-            list-style: none;
-            text-align: center;
-            height: 90%;
-
+        .centralizado{
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        .menu li{
-            display: inline-block;
-            margin-right: 30px;
-            padding-top: 25px;
-
-        }
-
-        .menu li a{
-            color: white;
-            text-decoration: none;
-            font-weight: 900;
-            transition: background-color 3s;
-            padding-top: 25px;
-        }
-            /*mouse em cima*/
-        .menu li a:hover{
-            background: greenyellow;
-            color: antiquewhite;
-
-        }
-
+        
 
 
     </style>
@@ -81,8 +44,12 @@
                 </li>
             </ul>
         </nav>
+        
     </header>
 
-    <div class="container"></div>
+    <div class="container">
+        <div class="container centralizado">
+            <img src="img/mew.png" alt="imagem mwtow">
+        </div></div>
   </body>
 </html>
